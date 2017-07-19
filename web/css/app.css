@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    background: #ffffff no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: transparent;
+}
+
+.bg-color1 { background-color: #c9c9c9; }
+
+.top-nav {
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 10px;
+}
+
+
+/* login form */
+
+.login-logo {
+    background: url(../img/logo_lg.png) center;
+    width: 545px;
+    height: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.primary-logo {
+    background: url(../img/logo_sm.png) center;
+    width: 330px;
+    height: 52px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.login-wrapper {
+    padding: 10px;
+}
+
+/* overrides for html login form component */
+
+.cv-login-form-container {
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-color: #999999;
+}
+
+.cv-login-form {
+    padding: 15px;
+}
+
+.cv-login-error {
+    margin-top: 20px;
+    color:#a94442;
+    font-size: larger;
+    text-align:center;
+}
+
+/* navbar */
+
+.workbench-navbar {
+    text-align: left;
+    padding: 3px 5px 3px 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+/* workbench menu items */
+.workbench-tab-menu {
+    margin: 3px 3px 1px 3px;
+    display: inline-block;
+    font-size: small;
+    width: auto;
+}
+
+.workbench-navbar li a {
+    color: #306da8;
+    font-size: medium;
+}
+
+
+/* clickable */
+
+.click-target {
+    cursor: pointer;
+}
+
+.click-target>*:hover {
+    opacity: 0.55;
+}
+
+/* list */
+.paging-controls {
+    margin: 5px;
+}
+
+/* detail */
+
+.detail-label {
+    font-weight: bold;
+}
+
+.detail-image-prop {
+    text-align: center;
+}
