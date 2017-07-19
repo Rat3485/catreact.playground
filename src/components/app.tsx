@@ -72,9 +72,9 @@ const CatreactLogin = React.createClass({
             <div className="login-logo"/>
             <CvLoginPanel
                 defaultGatewayUrl={'www.catavolt.net'}
-                defaultTenantId={'cvtutorial'}
-                defaultUserId={'wsmith'}
-                defaultPassword={'biznes1'}
+                defaultTenantId={'ozinga'}
+                defaultUserId={'ozadmin'}
+                defaultPassword={'wewillexterminatebcm1'}
                 showTenantId={false}
                 showDirectUrl={false}
                 showGatewayUrl={false}
